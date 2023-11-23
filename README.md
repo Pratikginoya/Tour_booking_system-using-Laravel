@@ -1,67 +1,50 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Tour Booking System Using Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+After learning Laravel, Ajax, Javascripts, Etc... I have made this project of Tour booking system....
 
-## About Laravel
+## About Project,
+### Front-End
+- -> User can search the destination on which he/she wants to go..
+- -> Separated the latest packages, domestic packages, internatinal packages so that user can find easily...
+- -> Added selection of from places using Ajax so that user can check the price of From place to his desire destination..
+- -> Added 'day wise activity' and 'What includes?' in packages
+- -> User can view his bookings using his login credential
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+  Please refer some screenshots of back-end panel..
+  ### Live package
+![Uploading Live package.png…]()
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+  ### Detail package
+![Uploading Detail package.png…]()
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+  ### Booking details
+![Booking details](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/2c5b3a28-3da8-4067-a035-ef594f853e0b)
 
-## Learning Laravel
+  ### Member detail - Booking
+![Member detail - Booking](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/cfc5671f-9ee8-4a9b-a4df-97548b573c55)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+  ### Booked Trip
+![Booked Trip](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/3f760590-03bf-427c-9459-1effa169993c)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+  
+### Back-end (Admin) Panel,
+- -> Using this back-end panel, Admin can manage the front-end of website like
+- -> User can add, edit, delete, view the sliders
+- -> User can add new packages, edit the status and details of old packages and also view or delete the packages from database
+- -> User can view the all booking, today's booking and change the status of booking like Trip complete, Trip running, etc..
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+  Please refer some screenshots of back-end panel..
+  ### Admin dashboard
+![Admin dashboard](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/5226e6e1-332b-41bd-98e9-97ea4d72b7c9)
 
-## Laravel Sponsors
+  ### Add package - Admin panel
+![Add package - Admin panel](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/8261d56a-4558-4ca3-821b-743c22ed36a9)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+  ### List of Live trips
+![List of Live trips](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/95427d4a-7609-422b-8170-b128069f7437)
 
-### Premium Partners
+  ### Details of Trip
+![Details of Trip](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/24aeefbf-51eb-4c9a-a8c5-ca81f7b7db29)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Tour_booking_system-using-Laravel
+  ### Booked Trips
+  ![Booked Trips](https://github.com/Pratikginoya/Tour_booking_system-using-Laravel/assets/143998558/eace7ea6-a064-43ad-bcbd-632733a79926)
